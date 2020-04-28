@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Our Story</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="css/bootstrap-dropdownhover.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ 
+</head> 
+	<style>
+	html {
+	scroll-behavior: smooth;
+}
+	/* HEADER AREA 1 */
+	.navbar-sm{
+	background-color: rgb(156, 40, 136 );
+} 
+	/* Social Icons */
+	.wrapper {
+	padding-right: 25px;
+}
+	.wrapper i {
+	padding: 10px;
+	text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+	transition: all ease-in-out 150ms;
+}
+	.wrapper a:nth-child(1) {
+	color: rgb(103, 224, 61);
+}
+	.wrapper a:nth-child(2) {
+	color: rgb(103, 224, 61);
+}
+	.wrapper a:nth-child(3) {
+	color: rgb(103, 224, 61);
+}
+	.wrapper i:hover {
+	margin-top: -3px;
+	text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+}
+
+	/* HEADER AREA 2 */
+	
+	.navbar-brand {
+	color: rgb(156, 40, 136 );
+}
+	.navbar-nav .nav-item .nav-link{
+	color: rgb(156, 40, 136 );
+}
+	.navbar-nav .nav-item .nav-link:hover {
+	color: rgb(103, 224, 61);
+	transition: 0.3s;
+}
+	/* Dropdown Links */
+	.dropdown-menu .dropdown-item {
+	color: rgb(156, 40, 136);
+}
+	.dropdown-menu .dropdown-item:hover {
+	color: rgb(103, 224, 61);
+	transition: 0.5s;
+}
+   .dropdown-menu .sub-menu {
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+}
+	.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+	/* FOOTER */
+	.footer-copyright {
+	background-color: rgb(156, 40, 136 );
+}
+	.page-footer {
+	background-color: rgb(194, 188, 194 );
+}
+	li {
+	color: rgb(156, 40, 136);
+	padding-bottom: 5px;
+}
+	a:hover {
+	color: rgb(35, 172, 31);
+	transition: 0.5s;
+}
+	h5 {
+	color: rgb(156, 40, 136);
+}
+	.foo {
+	color: rgb(156, 40, 136);
+}
+	/* PARALLAX EFFECT */
+	.parallax {
+  /* The image used */
+  background-image: url("img/aboutus.jpg");
+
+  /* Set a specific height */
+  min-height: 400px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+	.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+	.centered_1{
+  position: absolute;
+  top: 50%;
+  right: 20%; 
+}
+	h1, h2 {
+	text-align:left;
+	font-family: Palatino Linotype;
+	font-weight: bold;
+	font-size: 40px;
+}
+	h3, h4{ 
+	font-weight: bold;
+	display: block;
+}
+</style>
+  <body>
+
+<nav class="navbar-sm">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <div class="wrapper">
+  <ul class="nav justify-content-end">
+    <li class="nav-item">
+      <a href="https://www.instagram.com/"><i class="fa fa-3x fa-instagram"></i></a>
+    </li>
+    <li class="nav-item">
+    <a href="https://www.facebook.com/CafeTwenTea8/"> <i class="fa fa-3x fa-facebook-square"> </i> </a>
+    </li>
+    <li class="nav-item">
+     <a href="http://www.twitter.com"><i class="fa fa-3x fa-twitter-square"></i></a>
+    </li>
+	 <li class="nav-item">
+     <a href="https://www.google.com/"><i class="fa fa-3x fa-search"></i></a>
+    </li>
+  </ul>
+  </div>
+</nav>
+
+<nav class="navbar navbar-expand-sm ">
+  <a class="navbar-brand" href="CafeTwenTea8.html"> CafeTwenTea8 </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="OurStory.html">Our Story</a>
+      </li>
+      <li class="nav-item dropdown">
+       <a class="nav-link dropdown" href="Menu.html" data-toggle="dropdown"> <span class="caret"></span> Menu </a>
+	  <div class="dropdown-menu">
+        <a class="dropdown-item" href="Milkteas.html">Signature Milkteas</a>
+        <a class="dropdown-item" href="MorethanMilktea.html"> More than Milkteas</a>
+		<a class="dropdown-item" href="QuickBites.html">Quick Bites</a>
+      </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="JoinUs.html">Join Us</a>
+      </li>    
+	  <li class="nav-item">
+        <a class="nav-link" href="ContactUs.html">Contact Us</a>
+      </li>    
+	  <li class="nav-item">
+        <a class="nav-link" href="FAQ.html">FAQ</a>
+      </li>       
+    </ul>
+  </div>  
+</nav>
+
+<main> 
+	<div class="parallax"></div>
+	<div class="container"> 
+	<div style=";background-color:white;">
+	<br>
+	<h2> ADAPTING THE ART OF INNOVATION </h2>  <hr size = 5 noshade>
+	<h3> BRAND STORY </h3>
+	<p>CafeTwenTea8 was founded at Taguig, Philippines in 2017, 
+	and from there it has delivered consistently. In terms of bubble tea, 
+	CafeTwenTea8 has branches in Taguig and Pateros and aims to let community experience
+	authentic tea and be the best milktea in town. </p> 
+	
+	<p> CafeTwenTea8 continues to embrace challenges and innovations 
+	to be one of the leading brand in the freshly-made drinks industry. </p>
+	
+	<img src="img/milktea.gif" alt="milktea" align="left" width="20%" height="10%"> 
+	<br> 
+	<h4> PRODUCT PHILOSOPHY </h4>
+	<p> CafeTwenTea8 brings an authentic fresh new alternative to the 
+	Philippine market. With teas that are freshly prepared right in-store and made from 
+	quality-sourced ingredients, CafeTwenTea8 brings people a genuine milktea experience. </p>
+	
+	<p>CafeTwenTea8 ensure that our customers are receiving the best ingredients to produce
+	quality beverages and food. Made from fresh fruits and whole leaf teas sourced from the 
+	best locations, both local and abroad, CafeTwenTea8's signature drinks are made with freshness 
+	and tastes like no other.</p>
+	<br> <br>
+	</div>
+	</div>
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small grey pt-4">
+
+  <div class="container-fluid text-center >
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">Cafe Twentea8</h5>
+        <p class="foo">Cafe Twentea8 brings an authentic fresh new alternative to the Philippine market. With teas that are freshly prepared right in-store and made from quality-sourced ingredients. Your taste our passion...</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase" align="left">CONTACT US</h5>
+
+        <ul class="list-unstyled" align="left">
+          <li>
+			<a> 43-B Gen. Luna Street </a>
+          </li>
+          <li>
+			<a> Tuktukan, Taguig City </a>
+          </li>
+          <li>
+           <a href="https://m.me/CafeTwenTea8?fbclid=IwAR1JYsQ6PZhXEQHmyPK5WyH2Z-hLzC198GSEOw6cWMkO7xLd_N857Lg-vQ0">m.me/CafeTwentea8</a>
+          </li>
+          <li>
+            <a> Call 0917 305 6000 </a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase" align="left"> QUICK LINKS </h5>
+
+        <ul class="list-unstyled" align="left">
+          <li>
+               <a href="CafeTwenTea8.html">HOME</a>
+          </li>
+          <li>
+             <a href="OurStory.html">OUR STORY</a>
+          </li>
+          <li>
+              <a href="JoinUs.html">JOIN US </a>
+          </li>
+          <li>
+            <a href="FAQ.html">FAQ</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+ <image src="img/footer.png" width="100%"  >
+  <!-- Copyright -->
+   <div class="col-md-12 text-center">
+          <ul id="names">
+            <li>| | Kenniniah Rit| |</li>
+          </ul>
+        </div>
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://www.facebook.com/keninniah.rit?ref=bookmarks"> KenniniahRit</a>
+	
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+ 
+
+</body>
+</html>
